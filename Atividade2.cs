@@ -3,23 +3,23 @@ Nome:Emilly Dias
 */
 public static class Atividade2
 {
-    public static void Executar()
+  public static void Executar()
 
+  {
+    Console.Clear();
+
+    Console.WriteLine("Digite a Letra");
+    string letra = Console.ReadLine()!;
+    letra = Console.ReadLine()!.ToLower();
+
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")
     {
-        Console.Clear();
+      Console.WriteLine("A letra é uma Vogal");
+    }
+    else
+    {
+      Console.WriteLine("A letra é uma Consoante");
+    }
 
-        Console.WriteLine ("Digite a Letra");
-        string letra = Console.ReadLine()!;
-
-        
-        if (letra == "a" || letra == "e" || letra == "i" || letra == "o" ||letra == "u")
-        { 
-          Console.WriteLine ("A letra é uma Vogal");
-        }
-        else
-        {
-          Console.WriteLine ("A letra é uma Consoante");
-        }
-
-        }
+  }
 }
